@@ -48,6 +48,7 @@ strong {
 .max-width-wrapper {
 	max-width: 680px;
 	margin: 96px auto;
+	padding: 0 24px;
 }
 
 .intro-chunk {

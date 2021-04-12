@@ -1,12 +1,89 @@
 * {
-  box-sizing: border-box;
-  font-family: 'Lato', sans-serif;
+	box-sizing: border-box;
+	font-family: 'Lato', sans-serif;
 }
 
 html,
 body {
-  margin: 0;
-  padding: 0;
+	margin: 0;
+	padding: 0;
 }
 
 /* Add styles here! */
+
+html {
+	font-size: 18px;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+h1,
+h2 {
+	margin: 0;
+}
+
+p {
+	line-height: 1.4;
+}
+
+strong {
+	color: var(--color-green);
+}
+
+:root {
+	--color-green: hsl(160deg, 100%, 30%);
+
+	--color-light-gold: hsl(45deg, 100%, 50%);
+	--color-dark-gold: hsl(45deg, 100%, 40%);
+
+	--color-gray-very-dark: hsl(0deg, 0%, 10%);
+	--color-gray-dark: hsl(0deg, 0%, 30%);
+	--color-gray-medium: hsl(0deg, 0%, 40%);
+	--color-gray-light: hsl(0deg, 0%, 60%);
+}
+
+.max-width-wrapper {
+	max-width: 680px;
+	margin: 96px auto;
+}
+
+.intro-chunk {
+	max-width: 420px;
+}
+
+.intro-chunk .title {
+	margin-bottom: 48px;
+}
+
+.intro-chunk p {
+	font-size: 1.25rem;
+}
+
+main {
+	background-color: var(--color-gray-light);
+	border-top: 8px solid var(--color-gray-medium);
+	padding: 32px 0;
+}
+
+.card {
+	background-color: white;
+	border-bottom: 8px solid var(--color-gray-medium);
+	padding: 24px;
+	margin: -24px;
+}
+.card p {
+	font-size: 1.1rem;
+}
+
+.indented-heading {
+	background-color: var(--color-light-gold);
+	border-bottom: 8px solid var(--color-dark-gold);
+	padding: 24px 48px;
+	width: fit-content;
+	width: -moz-fit-content;
+	margin-top: -16px;
+	margin-left: -48px;
+}
